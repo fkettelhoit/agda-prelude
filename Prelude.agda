@@ -11,7 +11,7 @@ module Prelude where
 -- Basics
 
 open import Function public
-  using (_$_; _∘_; _∘′_; id; const; flip; type-signature)
+  using (_$_; _∘_; _∘′_; id; const; flip; _∋_)
 open import Level public using (Level)
 open import Size public using (Size; ↑_)
 
